@@ -2,4 +2,4 @@
 
 Per giovani aitanti stagisti.
 
-Modifica nuovo branch. Pull request.
+Ho fixato il display flex column.

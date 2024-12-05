@@ -1,3 +1,3 @@
 # Frontend HTML Terapeuta
 
-Per giovani aitanti stagisti
+Per giovani aitanti stagisti.

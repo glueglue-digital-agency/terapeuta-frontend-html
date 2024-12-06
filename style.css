@@ -1,4 +1,290 @@
+<<<<<<< Updated upstream
 * {
 	margin: 0;
 	padding: 0;
 }
+=======
+/* @FONTS */
+
+@font-face {
+	font-family: "CircularStd-Bold";
+	src: url("assets/fonts/CircularStd-Bold.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "CircularStd-Book";
+	src: url("assets/fonts/CircularStd-Book.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "CircularStd-Medium";
+	src: url("assets/fonts/CircularStd-Medium.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "EdmondsansBold";
+	src: url("assets/fonts/EdmondsansBold_web.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "EdmondsansMedium";
+	src: url("assets/fonts/EdmondsansMedium_web.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "EdmondsansRegular";
+	src: url("assets/fonts/EdmondsansRegular_web.ttf") format("truetype");
+}
+
+/*CONTAINERS*/
+
+.container {
+	width: 90%;
+	max-width: 1300px;
+	margin: auto;
+}
+
+.container--narrow {
+	max-width: 1200px;
+}
+
+/*@VARIABLES*/
+
+:root {
+	--color-primary: #009B99;
+	--color-primary-dark: #076267;
+	--color-primary-200: #D8F3EF;
+	--color-primary-100: #EBF9F7;
+	--color-secondary: #BDFFCB;
+	--color-tertiary: #008E9F;
+	--color-accent: #43BCB0;
+}
+
+/*@ALL*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+}
+
+/*TAGS*/
+
+a {
+	text-decoration: unset;
+	color: inherit;
+}
+
+b {
+	font-family: "CircularStd-Bold", sans-serif;
+}
+
+h1 {
+	font-family: "EdmondsansBold";
+	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+body {
+	font-family: "CircularStd-Book", sans-serif;
+}
+
+input, textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+/*@HEADER*/
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.9rem;
+	padding: 40px;
+}
+
+.header__left {
+	color: var(--color-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	font-weight: 200;
+}
+
+.header__logo {
+	width: 200px;
+	margin-bottom: -4px;
+}
+
+.header__right {
+	color: var(--color-primary-dark);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+/*HERO*/
+
+.hero {
+	color: var(--color-primary-dark);
+	width: 100%;
+	background-color: rgb(221, 242, 239);
+	padding: 100px;
+}
+
+.hero__subtitle {
+	font-family: "EdmondsansRegular";
+	padding: 30px 0px;
+}
+
+.hero__content {
+	width: 50%;
+}
+
+.hero__feature {
+	display: flex;
+	justify-content: flex-start;
+	gap: 8px;
+	margin-bottom: 24px;
+}
+
+.hero__footer {
+	display: flex;
+	gap: 20px;
+}
+
+li {
+	list-style-image: url(assets/images/icons/login.svg);
+}
+
+/*SERVICES*/
+
+.services {
+	background-color: var(--color-accent);
+	color: white;
+	padding: 140px 0px;
+}
+
+.services__title {
+	text-align: center;
+	color: var(--color-secondary);
+}
+
+.services__text {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+.services__box-group {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	gap: 20px;
+}
+
+.services__box {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	aspect-ratio: 1;
+	height: fit-content;
+	gap: 20px;
+	padding: 40px;
+	background-color: var(--color-tertiary);
+	border-radius: 33px;
+}
+
+.services__img {
+	height: 100px;
+}
+
+.services__box-body {
+	text-align: center;
+}
+
+.services__goal {
+	font-size: 1rem;
+}
+
+/*HOW-DO-YOU-FEEL*/
+
+.how-do-you-feel {
+	padding: 100px 0px;
+	background-color: var(--color-primary-200);
+	color: var(--color-primary);
+}
+
+.how-do-you-feel__grid {
+	display: grid;
+	gap: 80px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.how-do-you-feel__feeling {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	aspect-ratio: 1;
+	padding: 30px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.how-do-you-feel__img {
+	width: 80px;
+}
+
+
+
+
+/*BUTTONS*/
+
+.btn {
+	width: fit-content;
+	padding: 14px 24px;
+	border-radius: 12px;
+	border: 1px solid var(--color-primary);
+	color: white;
+	background-color: var(--color-primary);
+}
+
+.btn--large {
+	padding: 14px 56px;
+}
+
+.btn--small {
+	padding: 10px 16px;
+}
+
+.btn--outline {
+	background-color: transparent;
+	color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes

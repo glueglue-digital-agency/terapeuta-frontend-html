@@ -1,4 +1,76 @@
+/* @FONTS */
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("assets/fonts/circular-std-medium-500.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "EdmondsansBold";
+	src: url("assets/fonts/EdmondsansBold_web.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "EdmondsansMedium";
+	src: url("assets/fonts/EdmondsansMedium_web.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "EdmondsansRegular";
+	src: url("assets/fonts/EdmondsansRegular_web.ttf") format("truetype");
+}
+
+/*@VARIABLES*/
+
+:root {
+	--color-primary: #009B99;
+	--color-primary-dark: #076267;
+	--color-primary-200: #D8F3EF;
+	--color-primary-100: #EBF9F7;
+	--color-secondary: #BDFFCB;
+	--color-tertiary: #008E9F;
+}
+
+/*@ALL*/
+
 * {
 	margin: 0;
 	padding: 0;
 }
+
+/*@HEADER*/
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.header__left {
+
+}
+
+.header__logo {
+	width: 200px;
+}
+
+.header__right {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

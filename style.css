@@ -1,9 +1,7 @@
-<<<<<<< Updated upstream
 * {
 	margin: 0;
 	padding: 0;
 }
-=======
 /* @FONTS */
 
 @font-face {
@@ -221,7 +219,7 @@ li {
 /*HOW-DO-YOU-FEEL*/
 
 .how-do-you-feel {
-	padding: 100px 0px;
+	padding: 100px 0;
 	background-color: var(--color-primary-200);
 	color: var(--color-primary);
 }
@@ -282,9 +280,3 @@ li {
 
 
 
-
-
-
-
-
->>>>>>> Stashed changes

@@ -110,7 +110,7 @@ input[type="checkbox"] {
 	border-radius: 2px;
 	box-shadow: unset;
 	outline: 1px solid var(--color-primary-300);
-  accent-color: var(--color-primary-300);
+	accent-color: var(--color-primary-300);
 }
 
 .header__left {

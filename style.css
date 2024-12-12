@@ -39,20 +39,17 @@
 	margin: auto;
 }
 
-.container--big {
-	max-width: 1700px;
-}
-
 :root {
 	--color-primary: #009B99;
 	--color-primary-dark: #076267;
+	--color-primary-400: #43BCB0;
 	--color-primary-300: #9BE1D7;
 	--color-primary-200: #D8F3EF;
 	--color-primary-100: #EBF9F7;
 	--color-secondary: #BDFFCB;
 	--color-secondary-200: #EBFFEF;
 	--color-tertiary: #C5E7FF;
-	--color-sticazzi: #008E9F;
+	--color-quaternary: #008E9F;
 	--color-accent: #43BCB0;
 	--shadow: 0px 8px 16px rgba(7, 98, 103, 0.06);
 }
@@ -112,7 +109,7 @@ header {
 input[type="checkbox"] {
 	border-radius: 2px;
 	box-shadow: unset;
-  outline: 1px solid var(--color-primary-300);
+	outline: 1px solid var(--color-primary-300);
   accent-color: var(--color-primary-300);
 }
 
@@ -198,7 +195,7 @@ li {
 	height: fit-content;
 	gap: 20px;
 	padding: 40px;
-	background-color: var(--color-sticazzi);
+	background-color: var(--color-quaternary);
 	border-radius: 33px;
 }
 
@@ -336,7 +333,7 @@ li {
 	margin: 60px 0 70px 0;
 }
 
-.prices__info-icon {
+.small-icon {
 	width: 21px;
 }
 
@@ -566,6 +563,98 @@ li {
 	font-size: 0.9rem;
 }
 
+footer {
+	background-color: var(--color-primary);
+	color: white;
+	padding: 60px 0;
+}
+
+.footer__top {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 50px;
+}
+
+.footer__left {
+	width: 40%;
+}
+
+.footer__right {
+	width: 60%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.footer__logo {
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+.footer__title {
+	margin-bottom: 18px;
+	font-weight: bold;
+}
+
+.footer__info {
+	width: 80%;
+	font-size: 0.8rem;
+	margin-top: 6px;
+}
+
+.footer__link {
+	display: block;
+	margin-bottom: 15px;
+}
+
+.footer__link--color {
+	color: var(--color-secondary);
+}
+
+.footer__medium {
+	display: flex;
+	align-items: flex-start;
+	border-bottom: 2px solid var(--color-primary-400);
+	padding-bottom: 40px;
+}
+
+.footer__app {
+	width: 40%;
+}
+
+.footer__help-and-socials {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__btn {
+	display: flex;
+	gap: 8px;
+}
+
+.footer__socials {
+	padding-right: 16px;
+}
+
+.footer__socials-image {
+	width: 40px;
+	margin-right: 3px;
+}
+
+.footer__bottom {
+	padding-top: 40px;
+}
+
+.footer__conditions {
+	margin-right: 20px;
+}
+
+.app-download__image--small {
+	width: 120px;
+	margin-right: 10px;
+}
+
 .btn {
 	width: fit-content;
 	padding: 20px 25px;
@@ -598,7 +687,13 @@ li {
 	border: 1px solid black;
 }
 
-.medium-title  {
+.btn--white {
+	color: white;
+	border: 1px solid white;
+	padding: 10px 12px;
+}
+
+.medium-title {
 	text-align: center;
 	color: var(--color-primary);
 }

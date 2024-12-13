@@ -376,6 +376,12 @@ li {
 	gap: 10px;
 }
 
+.prices__link {
+	display: flex;
+	justify-content: space-between;
+	gap: 6px;
+}
+
 .prices__cta--primary {
 	color: var(--color-primary);
 }

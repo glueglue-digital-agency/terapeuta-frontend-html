@@ -372,12 +372,6 @@ li {
 
 .prices__city {
 	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-
-.prices__link {
-	display: flex;
 	justify-content: space-between;
 	gap: 6px;
 }
@@ -739,12 +733,20 @@ footer {
 	font-size: 1.4rem;
 }
 
-.therapist__job {
-	font-size: var(--font-size-xs);
+.therapist__job-group {
+	text-align: center;
 }
 
-.therapist__pipe {
-	color: var(--color-primary-300);
+.therapist__job {
+	font-size: var(--font-size-xs);
+	display: inline-block;
+	padding-right: 7px;
+	padding-left: 5px;
+	border-right: 1.5px solid var(--color-primary-300);
+}
+
+.therapist__job:last-child {
+	border-right: unset;
 }
 
 .therapist__summary {

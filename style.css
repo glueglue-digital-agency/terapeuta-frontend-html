@@ -717,11 +717,15 @@ footer {
 	background-color: white;
 }
 
-.therapist__grid-image-container {
+.therapist__background-container {
 	background-image: url(assets/images/therapist-grid-image.webp);
 	background-size: cover;
 	background-position: center;
 	height: 120px;
+	text-align: center;
+}
+
+.therapist__profile-container {
 	text-align: center;
 }
 
@@ -737,6 +741,7 @@ footer {
 .therapist__name {
 	font-family: "CircularStd-Medium", sans-serif;
 	font-size: 1.4rem;
+	text-align: center;
 }
 
 .therapist__job-group {
@@ -749,6 +754,7 @@ footer {
 	padding-right: 7px;
 	padding-left: 5px;
 	border-right: 1.5px solid var(--color-primary-300);
+	text-align: center;
 }
 
 .therapist__job:last-child {

@@ -59,11 +59,18 @@
 	--color-tertiary: #C5E7FF;
 	--color-quaternary: #008E9F;
 	--color-accent: #43BCB0;
+	--color-neutral: #AAADAD;
+	--color-neutral-dark: #3B3C3C;
+	--color-neutral-light: #EFF4F4;
 	--shadow: 0px 8px 16px rgba(7, 98, 103, 0.06);
+	--font-size-xl: 2rem;
 	--font-size-l: 1.3rem;
 	--font-size-s: 0.9rem;
 	--font-size-xs: 0.8rem;
 	--font-size-xxs: 0.7rem;
+	--font-circularStd-book: "CircularStd-Book", sans-serif;
+	--font-circularStd-medium: "CircularStd-Medium", sans-serif;
+	--font-circularStd-bold: "CircularStd-Bold", sans-serif;
 }
 
 * {
@@ -81,7 +88,7 @@ a {
 }
 
 b {
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	font-weight: normal;
 }
 
@@ -101,8 +108,9 @@ h3 {
 }
 
 body {
-	font-family: "CircularStd-Book", sans-serif;
+	font-family: var(--font-circularStd-book);
 	color: var(--color-primary-dark);
+	padding-top: 120px;
 }
 
 input, textarea {
@@ -116,6 +124,13 @@ header {
 	align-items: center;
 	font-size: 0.9rem;
 	padding: 40px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 0;
+	background-color: white;
+	z-index: 10000;
 }
 
 input[type="checkbox"] {
@@ -253,7 +268,7 @@ li {
 }
 
 .how-feel__name {
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	text-align: center;
 	margin-top: 25px;
 }
@@ -276,7 +291,7 @@ li {
 	background-color: white;
 	border-radius: 24px;
 	text-align: center;
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	box-shadow: var(--shadow);
 }
 
@@ -320,7 +335,7 @@ li {
 }
 
 .prices__child-title {
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	font-size: 0.95rem;
 }
 
@@ -329,7 +344,7 @@ li {
 }
 
 .prices__child-cash {
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	font-size: 1.2rem;
 }
 
@@ -337,7 +352,7 @@ li {
 	text-decoration: underline;
 	text-underline-offset: 4px;
 	text-decoration-thickness: 1.5px;
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 }
 
 .prices__did-you-know {
@@ -470,7 +485,7 @@ li {
 
 .our-values__name {
 	margin-top: 20px;
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 }
 
 .how-work {
@@ -622,7 +637,7 @@ footer {
 
 .footer__title {
 	margin-bottom: 18px;
-	font-weight: bold;
+	font-family: var(--font-circularStd-medium);
 }
 
 .footer__info {
@@ -695,7 +710,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 }
 
 .therapist__title {
@@ -705,7 +720,7 @@ footer {
 }
 
 .therapist__grid {
-	margin: 80px 0px;
+	margin: 50px 0px 80px 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	gap: 25px;
@@ -725,6 +740,10 @@ footer {
 	text-align: center;
 }
 
+.therapist__background-container--light {
+	background-image: url(assets/images/therapist-grid-image-light.webp);
+}
+
 .therapist__profile-container {
 	text-align: center;
 }
@@ -739,7 +758,7 @@ footer {
 }
 
 .therapist__name {
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	font-size: 1.4rem;
 	text-align: center;
 }
@@ -767,7 +786,7 @@ footer {
 	align-items: center;
 	background-color: var(--color-primary-100);
 	padding: 15px;
-	margin: 10px 0px;
+	margin: 10px 0px 15px 0;
 	border-radius: 8px;
 }
 
@@ -775,7 +794,7 @@ footer {
 	display: flex;
 	align-items: center;
 	gap: 8px;
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	font-size: var(--font-size-s);
 }
 
@@ -784,6 +803,51 @@ footer {
 	align-items: center;
 	gap: 8px;
 	font-size: var(--font-size-s);
+}
+
+.therapist__skills {
+	flex: 1;
+
+}
+
+.therapist__skills-top {
+	border-bottom: 2px solid var(--color-primary-300);
+	padding-bottom: 20px;
+}
+
+.therapist__skills-bottom {
+	margin: 20px 0;
+	display: flex;
+	gap: 15px;
+	width: 100%;
+}
+
+.therapist__skills-title {
+	font-size: var(--font-size-s);
+	font-family: var(--font-circularStd-book);
+	margin-bottom: 12px;
+}
+
+.therapist__index {
+	display: flex;
+	align-items: center;
+	border-radius: 8px;
+	border: 1px solid var(--color-primary);
+	color: var(--color-primary-dark);
+	width: fit-content;
+	padding: 10px 15px;
+	margin: auto;
+	gap: 10px;
+}
+
+.dont-find {
+	text-align: center;
+	background-color: var(--color-secondary);
+	padding: 100px 0;
+}
+
+.dont-find__text {
+	padding: 30px 150px 60px 150px;
 }
 
 
@@ -818,6 +882,14 @@ footer {
 	padding: 10px 16px;
 }
 
+.btn--card {
+	width: 100%;
+	padding: 10px 0;
+	display: inline-block;
+	text-align: center;
+	font-size: var(--font-size-s);
+}
+
 .btn--outline {
 	background-color: transparent;
 	color: var(--color-primary);
@@ -842,6 +914,8 @@ footer {
 .medium-title {
 	text-align: center;
 	color: var(--color-primary);
+	font-family: var(--font-circularStd-bold);
+	font-size: var(--font-size-xl);
 }
 
 .medium-title--secondary {
@@ -857,7 +931,7 @@ footer {
 }
 
 .subtitle {
-	font-family: "CircularStd-Medium", sans-serif;
+	font-family: var(--font-circularStd-medium);
 	padding: 20px 0px;
 	font-size: 1.4rem;
 }
@@ -879,9 +953,42 @@ footer {
 	width: 18px;
 }
 
-.center-item {
-	text-align: center;
+.chips-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
 }
+
+.chip {
+	padding: 7px 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	width: fit-content;
+	font-size: var(--font-size-s);
+	border-radius: 4px;
+	background-color: var(--color-secondary);
+	color: var(--color-primary-dark);
+	border: 1px solid var(--color-primary);
+}
+
+.chip--neutral {
+	background-color: var(--color-neutral-light);
+	color: var(--color-neutral-dark);
+	border: 1px solid var(--color-neutral);
+}
+
+.chip--blue {
+	background-color: var(--color-tertiary);
+	color: var(--color-primary-dark);
+	border: 1px solid var(--color-primary);
+}
+
+.chip-icon {
+	height: 20px;
+}
+
 
 
 

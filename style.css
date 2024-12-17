@@ -982,6 +982,7 @@ footer {
 	display: flex;
 	gap: 30px;
 	margin-top: 40px;
+	align-items: start;
 }
 
 .plans__child {
@@ -1013,11 +1014,22 @@ footer {
 
 .plans__child-bottom {
 	text-align: left;
-
+	font-size: var(--font-size-s);
+	line-height: 1.5rem;
 }
 
 .plans__list {
- 
+ list-style-position: inside;
+ margin: 0;
+ padding: 0;
+}
+
+.plans__list-item {
+	list-style-type: '- ';
+}
+
+.plans__footer {
+	padding: 60px 290px;
 }
 
 .btn {

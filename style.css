@@ -133,7 +133,17 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background-image: url();
+	background-image: url("assets/images/icons/chevron_down.svg");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-color: white;
+	padding: 15px 20px;
+	border-color: var(--color-primary-300);
+	color: var(--color-primary);
+	font-size: inherit;
+	font-family: inherit;
+	border-radius: 8px;
+	width: 100%;
 }
 
 /*HOME-PAGE*/

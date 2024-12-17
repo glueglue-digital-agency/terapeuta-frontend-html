@@ -298,7 +298,7 @@ input[type="checkbox"] {
 
 .prices {
 	text-align: center;
-	background-image: url("./assets/images/mask-prices.png");
+	background-image: url("./assets/images/mask-prices.webp");
 	background-size: 100% 100%;
 	width: 100%;
 	margin-top: 100px;
@@ -403,7 +403,7 @@ input[type="checkbox"] {
 }
 
 .app-download {
-	background-image: url("./assets/images/mask-screenshots.png");
+	background-image: url("./assets/images/mask-screenshots.webp");
 	background-size: cover;
 	width: 100%;
 	padding: 200px 0 180px 0;
@@ -944,19 +944,19 @@ footer {
 }
 
 .already-chosen__card--1 {
-	background-image: url(assets/images/already-chosen-1.png);
+	background-image: url(assets/images/already-chosen-1.webp);
 }
 
 .already-chosen__card--2 {
-	background-image: url(assets/images/already-chosen-2.png);
+	background-image: url(assets/images/already-chosen-2.webp);
 }
 
 .already-chosen__card--3 {
-	background-image: url(assets/images/already-chosen-3.png);
+	background-image: url(assets/images/already-chosen-3.webp);
 }
 
 .already-chosen__card--4 {
-	background-image: url(assets/images/already-chosen-4.png);
+	background-image: url(assets/images/already-chosen-4.webp);
 }
 
 .plans {

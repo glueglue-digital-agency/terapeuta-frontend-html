@@ -133,7 +133,17 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background-image: url();
+	background-image: url("assets/images/icons/chevron_down.svg");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	background-color: white;
+	padding: 15px 20px;
+	border-color: var(--color-primary-300);
+	color: var(--color-primary);
+	font-size: inherit;
+	font-family: inherit;
+	border-radius: 8px;
+	width: 100%;
 }
 
 /*HOME-PAGE*/
@@ -972,6 +982,7 @@ footer {
 	display: flex;
 	gap: 30px;
 	margin-top: 40px;
+	align-items: start;
 }
 
 .plans__child {
@@ -1003,11 +1014,227 @@ footer {
 
 .plans__child-bottom {
 	text-align: left;
-
+	font-size: var(--font-size-s);
+	line-height: 1.5rem;
 }
 
 .plans__list {
- 
+ list-style-position: inside;
+ margin: 0;
+ padding: 0;
+}
+
+.plans__list-item {
+	list-style-type: '- ';
+}
+
+.plans__footer {
+	padding: 60px 290px;
+}
+
+.testimony {
+	padding: 100px 0;
+}
+
+.testimony__content {
+	display: flex;
+	gap: 90px;
+	margin-top: 70px;
+	margin-bottom: 90px;
+}
+
+.testimony__child {
+	text-align: center;
+	flex: 1;
+}
+
+.testimony__image {
+	width: 140px;
+}
+
+.testimony__name {
+	margin-top: 20px;
+	margin-bottom: 9px;
+}
+
+.testimony__job {
+	margin-bottom: 45px;
+}
+
+.testimony__bottom {
+	position: relative;
+}
+
+.testimony__text {
+	position: relative;
+	z-index: 9000;
+}
+
+.testimony__quote {
+	position: absolute;
+	top: -30%;
+	left: -10%;
+}
+
+.testimony__footer {
+	margin: auto;
+	width: fit-content;
+}
+
+/*DETAILS*/ 
+
+.body__details {
+	background-color: var(--color-primary-200);
+}
+
+.details {
+	margin: 30px 0 30px 0;
+}
+
+.details__card {
+	border-radius: 24px;
+	overflow: hidden;
+	background-color: white;
+}
+
+.details__background-container {
+	background-image: url(assets/images/details-card-image.webp);
+	background-size: cover;
+	background-position: center;
+	height: 120px;
+	text-align: center;
+}
+
+.details__background-container--light {
+	background-image: url(assets/images/details-card-image-light.webp);
+}
+
+.details__profile-image {
+	width: 120px;
+	margin-top: -60px;
+	padding-left: 100px;
+}
+
+.details__body {
+	display: flex;
+	padding: 0 100px;
+	padding-bottom: 20px;
+	gap: 100px;
+}
+
+.details__left {
+	width: 55%;
+}
+
+.details__name {
+	font-family: var(--font-circularStd-medium);
+	font-size: var(--font-size-xl);
+	margin-top: 20px;
+}
+
+.details__job-group {
+	margin-bottom: 10px;
+}
+
+.details__job {
+	font-size: var(--font-size-m);
+	font-family: var(--font-circularStd-medium);
+	display: inline-block;
+	border-right: 1.5px solid var(--color-primary-300);
+	text-align: center;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+.details__job:first-child {
+	padding-left: 0;
+}
+
+.details__job:last-child {
+	border-right: unset;
+	padding-right: 0;
+}
+
+.details__info {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin: 10px 0;
+	font-size: var(--font-size-xs);
+}
+
+.details__rate {
+	font-size: 1rem;
+}
+
+.details__star {
+	width: 24px;
+}
+
+.details__text {
+	margin-bottom: 5px;
+	font-size: var(--font-size-s);
+}
+
+.details__see-more {
+	font-size: var(--font-size-s);
+	color: var(--color-primary);
+}
+
+.details__right {
+	width: 45%;
+	font-size: var(--font-size-s);
+	background-color: var(--color-primary-100);
+	border-radius: 8px;
+	padding: 30px 30px 0 30px;
+}
+
+.details__top {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	padding: 10px;
+	margin: 0 60px 25px 60px;
+	gap: 15px;
+	border-radius: 124px;
+}
+
+.details__top-left {
+	background-color: var(--color-secondary);
+	padding: 10px;
+	border-radius: 100px;
+}
+
+.details__top-right {
+	background-color: rgba(189, 255, 203, 0.3);
+	padding: 10px;
+	border-radius: 100px;
+}
+
+.details__right-body {
+}
+
+.details__child {
+	display: flex;
+	margin-bottom: 30px;
+	justify-content: space-between;
+}
+
+.details__service {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+
+.therapist--details {
+	background-color: var(--color-primary-100);
+}
+
+.therapist__grid--details {
+	margin: 50px 0px 80px 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
 }
 
 .btn {

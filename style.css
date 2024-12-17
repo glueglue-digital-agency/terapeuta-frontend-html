@@ -110,7 +110,7 @@ h3 {
 body {
 	font-family: var(--font-circularStd-book);
 	color: var(--color-primary-dark);
-	padding-top: 120px;
+	padding-top: 110px;
 }
 
 ul {
@@ -122,12 +122,28 @@ input, textarea {
 	font-size: inherit;
 }
 
+input[type="checkbox"] {
+	border-radius: 2px;
+	box-shadow: unset;
+	outline: 1px solid var(--color-primary-300);
+	accent-color: var(--color-primary-300);
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-image: url();
+}
+
+/*HOME-PAGE*/
+
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	font-size: 0.9rem;
-	padding: 40px;
+	padding: 35px;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -137,27 +153,18 @@ header {
 	z-index: 10000;
 }
 
-input[type="checkbox"] {
-	border-radius: 2px;
-	box-shadow: unset;
-	outline: 1px solid var(--color-primary-300);
-	accent-color: var(--color-primary-300);
+.header__logo {
+	width: 200px;
+	margin-bottom: -4px;
 }
 
-/*HOME-PAGE*/
-
-.header__left {
+.header__center {
 	color: var(--color-primary);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 40px;
 	font-weight: 200;
-}
-
-.header__logo {
-	width: 200px;
-	margin-bottom: -4px;
 }
 
 .header__right {
@@ -175,13 +182,13 @@ input[type="checkbox"] {
 }
 
 .hero__subtitle {
-	font-family: "EdmondsansRegular";
-	font-size: var(--font-size-xl);
+	font-family: "EdmondsansMedium";
+	font-size: 1.7rem;
 	padding: 30px 0px;
 }
 
 .hero__content {
-	width: 60%;
+	width: 65%;
 }
 
 .hero__feature {
@@ -865,15 +872,11 @@ footer {
 	padding: 30px 150px 60px 150px;
 }
 
-.professional {
-	
-}
-
-.professional--200 {
+.professional--color-200 {
 	background-color: var(--color-primary-200);
 }
 
-.professional--100 {
+.professional--color-100 {
 	background-color: var(--color-primary-100);
 }
 

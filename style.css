@@ -187,8 +187,15 @@ header {
 
 .hero {
 	color: var(--color-primary-dark);
-	background-color: rgb(221, 242, 239);
-	padding: 100px;
+	position: relative;
+}
+
+.hero__video {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
 }
 
 .hero__subtitle {
@@ -198,7 +205,10 @@ header {
 }
 
 .hero__content {
-	width: 65%;
+	position: relative;
+	z-index: 1000;
+	padding: 100px;
+	width: 45%;
 }
 
 .hero__feature {
@@ -217,6 +227,7 @@ header {
 	background-color: var(--color-accent);
 	color: white;
 	padding: 140px 0px;
+	padding-top: 360px;
 }
 
 .services__text {

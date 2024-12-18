@@ -1083,7 +1083,7 @@ footer {
 
 /*DETAILS*/ 
 
-.body__details {
+.body-details {
 	background-color: var(--color-primary-200);
 }
 
@@ -1236,6 +1236,72 @@ footer {
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 25px;
 }
+
+.get-in-touch {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url("assets/images/get-in-touch.webp");
+	background-size: cover;
+	background-position: top;
+	height: 160px;
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.get-in-touch__btn {
+	margin: 40px 40px 0 0;
+}
+
+.specialisation__title {
+	display: flex;
+	gap: 10px;
+	margin: 20px 0px;
+}
+
+.specialisation__grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.specialisation__box {
+	background-color: var(--color-primary-100);
+	border: 2px solid white;
+	border-radius: 24px;
+	padding: 30px;
+	padding-top: 28px;
+	padding-bottom: 40px;
+}
+
+.specialisation__item {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 24px;
+}
+
+.specialisation__item-left {
+	border-right: 2px solid var(--color-primary-300);
+	padding-right: 50px;
+}
+
+.specialisation__item-right {
+	padding-left: 40px;
+}
+
+.specialisation__item-title {
+	opacity: 50%;
+	margin-bottom: 6px;
+	font-size: var(--font-size-xs);
+}
+
+.specialisation__item-text {
+	
+}
+
 
 .btn {
 	width: fit-content;

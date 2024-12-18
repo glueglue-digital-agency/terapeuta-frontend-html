@@ -384,6 +384,10 @@ header {
 	width: 21px;
 }
 
+.medium-icon {
+	width: 28px;
+}
+
 .prices__in-person {
 	display: flex;
 	gap: 100px;
@@ -1262,13 +1266,13 @@ footer {
 	margin: 20px 0px;
 }
 
-.specialisation__grid {
+.certification {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
 }
 
-.specialisation__box {
+.certification__card {
 	background-color: var(--color-primary-100);
 	border: 2px solid white;
 	border-radius: 24px;
@@ -1277,30 +1281,104 @@ footer {
 	padding-bottom: 40px;
 }
 
-.specialisation__item {
+.certification__item {
 	display: flex;
 	align-items: flex-start;
 	margin-top: 24px;
 }
 
-.specialisation__item-left {
+.certification__item-left {
 	border-right: 2px solid var(--color-primary-300);
 	padding-right: 50px;
 }
 
-.specialisation__item-right {
+.certification__item-right {
 	padding-left: 40px;
 }
 
-.specialisation__item-title {
+.certification__item-title {
 	opacity: 50%;
 	margin-bottom: 6px;
 	font-size: var(--font-size-xs);
 }
 
-.specialisation__item-text {
-	
+.expertise {
+	padding-top: 20px;
 }
+
+.expertise__approach-group {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 30px;
+}
+
+.expertise__section {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.expertise__title {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 30px;
+	font-family: var(--font-circularStd-medium);
+	font-size: 1rem;
+}
+
+.expertise__approach {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 40px;
+}
+
+.expertise__icon {
+	width: 90px;
+}
+
+.expertise__approach-title {
+	font-family: var(--font-circularStd-medium);
+	font-size: var(--font-size-s);
+}
+
+.expertise__approach-title--big {
+	font-size: unset;
+}
+
+.expertise__approach-text {
+	font-size: var(--font-size-s);
+	margin: 5px 0px;
+}
+
+.expertise__list-item {
+	margin-bottom: 6px;
+}
+
+.areas {
+	padding-top: 20px;
+}
+
+.areas__body {
+	padding-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 9px;
+}
+
+.video-presentation {
+	margin-top: 20px;
+}
+
+.video-presentation__video {
+	width: 100%;
+	border-radius: 24px;
+	margin-top: 20px;
+}
+
+
+
 
 
 .btn {
@@ -1433,6 +1511,23 @@ footer {
 
 .chip-icon {
 	height: 20px;
+}
+
+.chip--certified {
+	background-color: var(--color-primary-300);
+	color: var(--color-primary-dark);
+}
+
+.white-border {
+	border-bottom: 2px solid white;
+	margin-top: 60px
+}
+
+.more-info {
+	color: var(--color-primary);
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	font-size: var(--font-size-xs);
 }
 
 

@@ -2058,6 +2058,11 @@ footer {
 		padding: 16px 20px;
 		width: 70%;
 		text-align: center;
+		display: inline-block;
+	}
+
+	.btn--large {
+		padding: 20px 25px;
 	}
 
 	.btn--large {
@@ -2086,7 +2091,233 @@ footer {
 		padding: 10px 0px;
 		padding-bottom: 20px;
 	}
+	.therapist {
+		padding: 20px 5px;
+	}
+
+	/*DETAILS*/
+
+	.details__body {
+		flex-direction: column;
+		align-items: center;
+		padding: 20px;
+		gap: 30px;
+	}
+
+	.details__left {
+		width: 100%;
+	}
+
+	.details__right {
+		width: 100%;
+	}
+
+	.details__child {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.details__right {
+		padding: 10px;
+	}
+
+	.details__top {
+		padding: 8px;
+	}
+
+	.details__top-left {
+		padding: 5px;
+		text-align: center;
+	}
+
+	.details__top-right {
+		padding: 5px;
+		text-align: center;
+	}
+
+	.details__profile-container {
+		text-align: center;
+	}
+
+	.details__profile-image {
+		padding: unset;
+	}
+
+	.details__job-group {
+		text-align: center;
+	}
+
+	.details__name {
+		margin-top: unset;
+	}
+
+	.certification {
+		grid-template-columns: 1fr;
+	}
+
+	.certification__card {
+		padding: 20px;
+	}
+
+	.certification__item-left {
+		padding-right: 5px;
+		flex: 3;
+	}
+
+	.certification__item-right {
+		padding-left: 20px;
+		flex: 1;
+	}
+
+	.expertise__approach-group {
+		flex-direction: column;
+	}
+
+	.office__grid {
+		gap: 10px;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.therapist--details {
+		padding: 40px 0 1px 0;
+	}
+
+	.therapist__grid--details {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.get-in-touch {
+		justify-content: center;
+	}
+
+	.get-in-touch__btn {
+		margin: unset;
+	}
+
+
+
+
+	.therapist__title {
+		margin-left: 0;
+	}
+
+	.therapist__top-left {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.therapist__grid {
+		display: flex;
+		flex-direction: column;
+		margin: 30px 0;
+	}
+
+	.therapist__background-container {
+		height: 100px;
+	}
+
+	.therapist__body {
+		padding: 20px;
+	}
+
+	.therapist__summary {
+		flex-direction: column;
+		gap: 10px;
+		align-items: center;
+	}
+
+	.therapist__job-group {
+		display: block;
+	}
+
+	.therapist__skills-bottom {
+		flex-direction: column;
+	}
+
+	.dont-find__text {
+		padding: 30px 0 50px 0;
+	}
+
+	.plans {
+		padding: 50px 0;
+	}
+
+	.plans__cards {
+		flex-direction: column;
+	}
+
+	.plans__footer {
+		padding: 20px 0;
+	}
+
+	.plans__child {
+		padding: 20px;
+	}
+
+	.plans__child-top {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 5px;
+	}
+
+	.subtitle--narrow {
+		padding: 20px 0;
+	}
+
+	.professional__body {
+		flex-direction: column;
+		padding: 30px 0;
+		gap: 20px;
+	}
+
+	.professional__left {
+		gap: 15px;
+	}
+
+	.professional__icon {
+		height: 80px;
+	}
+
+	.professional__icon--smaller {
+		height: 50px;
+	}
+
+	.already-chosen {
+		padding: 50px 0;
+	}
+
+	.already-chosen__body {
+		overflow-x: scroll;
+	}
+
+	.already-chosen__card {
+		width: 200px;
+	}
+
+	.testimony {
+		padding: 50px 0;
+	}
+
+	.testimony__content {
+		flex-direction: column;
+		gap: 30px;
+		margin: 30px 0;
+	}
+
+	.testimony__job {
+		margin-bottom: 20px;
+	}
+
+	.testimony__quote {
+		top: -15%;
+		left: -5%;
+	} 
+
 }
+
 
 
 

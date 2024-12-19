@@ -1530,7 +1530,7 @@ footer {
 	color: var(--color-primary-dark);
 }
 
-.white-border {
+.white-divider {
 	border-bottom: 2px solid white;
 	margin-top: 60px
 }

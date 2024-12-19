@@ -1940,12 +1940,58 @@ footer {
 		font-size: 1.7rem;
 	}
 
+	.therapist {
+		padding: 20px 5px;
+	}
 
+	.therapist__top {
+		flex-direction: column;
+		align-items: flex-end;
 
+	}
 
+	.therapist__title {
+		margin-left: 0;
+	}
 
+	.therapist__top-left {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		width: 100%;
+	}
 
+	.therapist__grid {
+		display: flex;
+		flex-direction: column;
+		margin: 30px 0;
+	}
 
+	.therapist__background-container {
+		height: 100px;
+	}
+
+	.therapist__body {
+		padding: 20px;
+	}
+
+	.therapist__summary {
+		flex-direction: column;
+		gap: 10px;
+		align-items: center;
+	}
+
+	.therapist__job-group {
+		display: block;
+	}
+
+	.therapist__skills-bottom {
+		flex-direction: column;
+	}
+
+	.dont-find__text {
+		padding: 30px 0 50px 0;
+	}
 
 
 

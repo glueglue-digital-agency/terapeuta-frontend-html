@@ -1681,6 +1681,11 @@ footer {
 		line-height: 2.5rem;
 	}
 
+	h3 {
+		font-size: 1rem;
+		margin-bottom: 0px;
+	}
+
 	header {
 		padding: 26px 20px;
 	}
@@ -2005,12 +2010,14 @@ footer {
 	}
 
 	footer {
-		padding: 40px 20px;
+		padding: 30px 20px;
+		padding-bottom: 20px;
 	}
 
 	.footer__top {
 		flex-direction: column;
 		margin-bottom: 20px;
+		font-size: var(--font-size-xs);
 	}
 
 	.footer__left {
@@ -2034,16 +2041,21 @@ footer {
 
 	.footer__app {
 		width: 100%;
+		margin-bottom: 8px;
 	}
 
 	.footer__help-and-socials {
 		width: 100%;
 		flex-direction: column;
-		margin-top: 10px;
+		margin-top: 8px;
 	}
 
 	.footer__info {
 		width: 100%;
+	}
+
+	.footer__medium {
+		padding-bottom: 10px;
 	}
 
 	.footer__title {
@@ -2051,7 +2063,17 @@ footer {
 	}
 
 	.footer__help {
-		margin-bottom: 10px;
+		margin-bottom: 14px;
+	}
+
+	.footer__bottom {
+		padding-top: 10px;
+	}
+
+	.footer__conditions {
+		font-size: var(--font-size-xxs);
+		text-align: center;
+		margin: 6px;
 	}
 
 	.btn {
@@ -2059,10 +2081,6 @@ footer {
 		width: 70%;
 		text-align: center;
 		display: inline-block;
-	}
-
-	.btn--large {
-		padding: 20px 25px;
 	}
 
 	.btn--large {
@@ -2080,6 +2098,16 @@ footer {
 	.btn--full {
 		padding: 12px 80px;
 		text-align: center;
+		width: 40%;
+		margin: auto;
+	}
+
+	.footer__btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: fit-content;
+		gap: 8px;
 	}
 
 	.medium-title {
@@ -2194,9 +2222,6 @@ footer {
 	.get-in-touch__btn {
 		margin: unset;
 	}
-
-
-
 
 	.therapist__title {
 		margin-left: 0;

@@ -168,6 +168,14 @@ header {
 	margin-bottom: -4px;
 }
 
+.header__menu {
+	display: none;
+}
+
+.menu-icon {
+	width: 20px;
+}
+
 .header__center {
 	color: var(--color-primary);
 	display: flex;
@@ -1605,6 +1613,153 @@ footer {
 	text-underline-offset: 3px;
 	font-size: var(--font-size-xs);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SEZIONE MOBILE*/
+
+@media all and (max-width: 1100px) {
+
+	.header__logo {
+		width: 150px;
+	}
+
+	.header__center {
+		display: none;
+	}
+
+	.header__right {
+		display: none;
+	}
+
+	.header__menu {
+		display: unset;
+	}
+
+	.hero__content {
+		padding: 30px;
+		width: 100%;
+	}
+
+	.hero__video {
+		display: none;
+	}
+
+	.hero__footer {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	.services__box-group {
+		flex-direction: column;
+	}
+
+	.how-feel__grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 50px;
+	}
+
+	.how-feel__feeling {
+		padding: 0;
+	}
+
+	.how-feel__icon {
+		height: 60px;
+	}
+
+	.goal {
+		padding: 50px 0;
+	}
+
+	.goal__grid {
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		grid-auto-rows: 1fr;
+	}
+
+	.goal__child {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.prices__text {
+		padding: 0;
+	}
+
+	.prices__cards {
+		flex-direction: column;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 
 
 

@@ -794,6 +794,7 @@ footer {
 }
 
 .therapist__card {
+	display: block;
 	border-radius: 24px;
 	overflow: hidden;
 	background-color: white;

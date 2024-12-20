@@ -39,7 +39,7 @@
 	margin: auto;
 }
 
-.container--large {
+.container--wide {
 	max-width: 1400px;
 }
 
@@ -264,6 +264,10 @@ header {
 	padding: 40px;
 	background-color: var(--color-quaternary);
 	border-radius: 33px;
+}
+
+.services__goal {
+	font-family: var(--font-circularStd-bold);
 }
 
 .services__image {
@@ -1694,16 +1698,8 @@ footer {
 		width: 90%;
 	}
 
-	.container--large {
-
-	}
-
-	.container--narrow {
-
-	}
-
-	.scrollbar-overflow::-webkit-scrollbar-track {
-		padding: 0 20px 0 20px;
+	.container--full {
+		width: 100%;
 	}
 
 	.header__logo {
@@ -1761,13 +1757,29 @@ footer {
 		padding: 40px 0;
 	}
 
+	.services__goal {
+		font-size: var(--font-size-s);
+		margin-bottom: 6px;
+	}
+
+	.services__body {
+		font-size: var(--font-size-xs);
+	}
+
 	.services__text {
+		font-size: var(--font-size-s);
 		margin-bottom: 40px;
 	}
 
 	.services__box {
-		padding: 20px;
+		padding: 30px;
 		margin: 0px 10px;
+	}
+
+	.services__dropdown {
+		padding: 10px 20px;
+		width: 100%;
+		font-size: var(--font-size-s);
 	}
 
 	.how-feel {
@@ -1863,9 +1875,14 @@ footer {
 		gap: 30px;
 	}
 
+	.prices__in-person-right {
+		grid-template-columns: 1fr 1fr;
+		row-gap: 30px;
+		margin-top: 20px;
+	}
+
 	.prices__city:last-child {
-		font-size: 0.7rem;
-		text-align: right;
+		font-size: 0.8rem;
 	}
 
 	.prices__did-you-know {
@@ -1901,7 +1918,30 @@ footer {
 	.experts__body {
 		overflow-x: scroll;
 		padding-bottom: 20px;
+		padding-right: 20px;
 		gap: 0px;
+		justify-content: flex-start;
+		/*FIREFOX: scroll thumb and track colors*/
+		scrollbar-color: var(--) var(--color-primary-300);
+	}
+
+	.experts__body::-webkit-scrollbar {
+		/*CHROME, EDGE, SAFARI: height of the scrollbar*/
+	  	height: 8px;
+	}
+
+	.experts__body::-webkit-scrollbar-track {
+		/*CHROME, EDGE, SAFARI: color of the tracking area*/
+	  	background: var(--color-primary-100);
+	  	border-radius: 24px;
+	  	margin: 20px;
+	}
+
+	.experts__body::-webkit-scrollbar-thumb {
+		/*CHROME, EDGE, SAFARI: color of the scroll thumb*/
+	  	background-color: var(--color-primary-300);
+	  	/*CHROME, EDGE, SAFARI: roundness of the scroll thumb*/
+	  	border-radius: 24px;
 	}
 
 	.experts__card {

@@ -2166,16 +2166,20 @@ footer {
 	}
 
 	.btn {
-		padding: 16px 20px;
+		padding: 18px 25px;
 		width: 100%;
 		text-align: center;
+	}
+
+	.btn--wide {
+		padding: 18px 25px;
 	}
 
 	.btn--card {
 		padding: 16px 0px;
 	}
 
-	.btn--hero {
+	.btn--mobile {
 		width: 90%;
 	}
 
@@ -2205,10 +2209,6 @@ footer {
 	.subtitle--narrow {
 		padding: 20px 0;
 	}
-
-	/*SEARCH-CITY-MOBILE*/
-
-	
 
 	/*DETAILS-MOBILE*/
 

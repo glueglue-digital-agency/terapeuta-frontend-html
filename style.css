@@ -731,7 +731,7 @@ footer {
 	justify-content: space-between;
 }
 
-.footer__btn {
+.btn--footer {
 	display: flex;
 	gap: 8px;
 }
@@ -1690,8 +1690,16 @@ footer {
 		padding: 26px 20px;
 	}
 
-	.container--mobile {
-		width: 100%;
+	.container {
+		width: 90%;
+	}
+
+	.container--large {
+
+	}
+
+	.container--narrow {
+
 	}
 
 	.scrollbar-overflow::-webkit-scrollbar-track {
@@ -1886,7 +1894,7 @@ footer {
 	}
 
 	.experts {
-		padding: 50px 0;
+		padding: 40px 0;
 		padding-bottom: 30px;
 	}
 
@@ -1948,7 +1956,7 @@ footer {
 	}
 
 	.how-work {
-		padding: 50px 0;
+		padding: 40px 0;
 		padding-bottom: 10px;
 	}
 
@@ -1985,7 +1993,7 @@ footer {
 	}
 
 	.emergency {
-		padding: 50px 0;
+		padding: 40px 0;
 	}
 
 	.emergency__text {
@@ -1994,7 +2002,7 @@ footer {
 	}
 
 	.newsletter {
-		padding: 50px 0;
+		padding: 40px 0;
 	}
 
 	.newsletter__field {
@@ -2082,30 +2090,19 @@ footer {
 
 	.btn {
 		padding: 16px 20px;
-		width: 70%;
-		text-align: center;
-		display: inline-block;
-	}
-
-	.btn--wide {
-		padding: 16px 20px;
-		text-align: center;
-	}
-
-	.btn--small {
-		padding: 12px;
 		width: 100%;
 		text-align: center;
 	}
 
-	.btn--full {
-		padding: 12px 80px;
-		text-align: center;
-		width: 40%;
-		margin: auto;
+	.btn--hero {
+		width: 90%;
 	}
 
-	.footer__btn {
+	.btn--small {
+		padding: 12px;
+	}
+
+	.btn--footer {
 		display: flex;
 		justify-content: center;
 		align-items: center;

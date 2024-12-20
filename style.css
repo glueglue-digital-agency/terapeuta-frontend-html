@@ -2074,6 +2074,7 @@ footer {
 
 	.footer__left {
 		width: 100%;
+		margin-bottom: 10px;
 	}
 
 	.footer__logo {
@@ -2084,7 +2085,18 @@ footer {
 	.footer__right {
 		width: 100%;
 		flex-direction: column;
-		display: none;
+	}
+
+	.footer__element {
+		margin-top: 12px;
+	}
+
+	.footer__title {
+		margin-bottom: 6px;
+	}
+
+	.footer__link {
+		margin-bottom: 6px;
 	}
 
 	.footer__medium {
@@ -2108,10 +2120,6 @@ footer {
 
 	.footer__medium {
 		padding-bottom: 10px;
-	}
-
-	.footer__title {
-		margin-bottom: 10px;
 	}
 
 	.footer__help {

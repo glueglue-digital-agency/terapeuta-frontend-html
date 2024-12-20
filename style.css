@@ -457,7 +457,7 @@ header {
 }
 
 .app-download__image {
-	max-width: 170px;
+	height: 40px;
 	margin-right: 20px;
 }
 
@@ -754,7 +754,7 @@ footer {
 }
 
 .app-download__image--small {
-	width: 120px;
+	height: 32px;
 	margin-right: 10px;
 }
 
@@ -1877,8 +1877,12 @@ footer {
 	}
 
 	.app-download__image {
-		max-width: 130px;
-		margin-right: 10px;
+		height: 36px;
+		margin-right: 6px;
+	}
+
+	.app-download__image--small {
+		height: 36px;
 	}
 
 	.experts {

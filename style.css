@@ -207,6 +207,11 @@ header {
 	object-position: center;
 }
 
+.hero__video--professional {
+	height: 826px;
+	object-position: bottom;
+}
+
 .hero__subtitle {
 	font-family: "EdmondsansMedium";
 	font-size: 1.7rem;
@@ -329,7 +334,7 @@ header {
 }
 
 .goal__child {
-	padding: 40px 15px;
+	padding: 30px 15px;
 	background-color: white;
 	border-radius: 24px;
 	text-align: center;
@@ -916,6 +921,10 @@ footer {
 
 .dont-find__text {
 	padding: 30px 150px 60px 150px;
+}
+
+.hero--professional {
+	padding-bottom: 220px;
 }
 
 .professional--color-200 {
@@ -1677,7 +1686,7 @@ footer {
 @media all and (max-width: 1100px) {
 
 	body {
-		padding-top: 80px;
+		padding-top: 70px;
 	}
 
 	h1 {
@@ -1696,8 +1705,8 @@ footer {
 	}
 
 	header {
-		padding: 26px 20px;
-		padding-bottom: 22px;
+		padding: 28px 20px;
+		padding-bottom: 24px;
 	}
 
 	.scrollbar::-webkit-scrollbar {
@@ -1753,12 +1762,12 @@ footer {
 	}
 
 	.hero {
-		padding-bottom: 520px;
+		padding-bottom: 590px;
 		background-color: var(--color-primary-200);
 	}
 
 	.hero__subtitle {
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 		line-height: 1.8rem;
 		padding: 20px 0px;
 		padding-bottom: 30px;
@@ -1773,17 +1782,7 @@ footer {
 		object-position: right;
 		height: 600px;
 		bottom: 0;
-		right: ;
 	}
-
-	/*.hero__video {
-	position: absolute;
-	z-index: 100;
-	width: 100%;
-	height: 850px;
-	object-fit: cover;
-	object-position: center;
-}*/
 
 	.hero__footer {
 		flex-direction: column;
@@ -2039,6 +2038,7 @@ footer {
 
 	.how-work__right {
 		width: 100%;
+		margin-top: 20px;
 	}
 
 	.how-work__info {
@@ -2055,7 +2055,7 @@ footer {
 	}
 
 	.how-work__text {
-		margin-bottom: unset;
+		margin-bottom: 40px;
 	}
 
 	.emergency {
@@ -2167,13 +2167,17 @@ footer {
 	}
 
 	.btn {
-		padding: 18px 25px;
-		width: 100%;
+		padding: 16px 25px;
+		min-width: 300px;
 		text-align: center;
 	}
 
 	.btn--wide {
-		padding: 18px 25px;
+		padding: 16px 25px;
+	}
+
+	.btn--plans {
+		padding: 16px 20px;
 	}
 
 	.btn--card {
@@ -2198,12 +2202,12 @@ footer {
 	}
 
 	.medium-title {
-		font-size: 1.7rem;
+		font-size: 1.6rem;
 		line-height: 2.2rem;
 	}
 
 	.subtitle {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		padding: 15px 0px;
 	}
 
@@ -2245,6 +2249,10 @@ footer {
 
 	.details__job-group {
 		font-size: var(--font-size-s);
+	}
+
+	.details {
+		padding: 20px 0px;
 	}
 
 	.details__left {
@@ -2392,8 +2400,7 @@ footer {
 	}
 
 	.therapist {
-		padding: 20px 5px;
-		padding-bottom: 10px;
+		padding: 40px 5px;
 	}
 
 	.therapist--details {
@@ -2489,6 +2496,7 @@ footer {
 	.professional__left {
 		gap: 15px;
 		align-items: center;
+		margin-bottom: 20px;
 	}
 
 	.professional__icon {
@@ -2500,15 +2508,20 @@ footer {
 	}
 
 	.already-chosen {
-		padding: 50px 0;
+		padding: 40px 0;
 	}
 
 	.already-chosen__body {
 		overflow-x: scroll;
+		gap: 0px;
+		margin-top: 40px;
 	}
 
 	.already-chosen__card {
-		min-width: 300px;
+		min-width: 190px;
+		margin-bottom: 20px;
+		margin-left: 16px;
+		height: 240px;
 		flex: unset;
 	}
 

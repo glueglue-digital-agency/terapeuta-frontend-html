@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home Terapeuta</title>
+	<title>Sei un terapeuta</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -31,7 +31,10 @@
 		</header>
 
 		<main>
-			<div class="hero">
+			<div class="hero hero--professional">
+				<video class="hero__video hero__video--professional" poster="assets/images/professional.webp" autoplay muted loop playsinline>
+			    	<source src="assets/videos/professional.mov" type="video/mp4">
+				</video>
 				<div class="hero__content">
 					<h1 class="hero__title">
 					Collabora con Terapeuta.it<br>
@@ -132,7 +135,7 @@
 				</div>
 			</div>
 			<div class="already-chosen">
-				<div class="container container--wide container--mobile">
+				<div class="container container--wide container--full">
 					<h2 class="medium-title">Hanno già scelto Terapeuta.it</h2>
 					<div class="already-chosen__body scrollbar">
 							<div class="already-chosen__card already-chosen__card--1">
@@ -272,7 +275,7 @@
 					Entra nella nostra comunità e sfrutta le straordinarie opportunità offerte da migliaia di potenziali clienti, all’interno di un contesto professionale ed etico.
 					</p>
 
-					<a href="#" class="btn btn--wide">Crea il tuo profilo gratuito e candidati</a>
+					<a href="#" class="btn btn--wide btn--plans">Crea il tuo profilo gratuito e candidati</a>
 
 				</div>
 			</div>
@@ -364,8 +367,12 @@
 				<div class="footer__medium">
 					<div class="footer__app">
 						<h3 class="footer__title">Scarica l'app</h3>
-						<img class="app-download__image app-download__image--small" src="./assets/images/app-store.webp" alt="logo App Store">
-						<img class="app-download__image app-download__image--small" src="./assets/images/google-play.webp" alt="logo Google-Play">
+						<a href="#">
+							<img class="app-download__image app-download__image--small" src="./assets/images/app-store.webp" alt="logo App Store">
+						</a>
+						<a href="#">
+							<img class="app-download__image app-download__image--small" src="./assets/images/google-play.webp" alt="logo Google-Play">
+						</a>
 					</div>
 
 					<div class="footer__help-and-socials">
@@ -375,10 +382,18 @@
 						</div>
 						<div class="footer__socials">
 							<h3 class="footer__title">Seguici su:</h3>
-							<img class="footer__socials-image" src="./assets/images/icons/social-1.svg" alt="icona Instagram">
-							<img class="footer__socials-image" src="./assets/images/icons/social-2.svg" alt="icona Facebook">
-							<img class="footer__socials-image" src="./assets/images/icons/social-3.svg" alt="icona Linkedin">
-							<img class="footer__socials-image" src="./assets/images/icons/social-4.svg" alt="icona Youtube">
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-1.svg" alt="icona Instagram">
+							</a>
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-2.svg" alt="icona Facebook">
+							</a>
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-3.svg" alt="icona Linkedin">
+							</a>
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-4.svg" alt="icona Youtube">
+							</a>
 						</div>
 					</div>
 				</div>

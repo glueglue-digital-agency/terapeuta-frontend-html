@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Terapeuta</title>
+		<title>Home</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
@@ -28,7 +28,7 @@
 			<div class="header__right">
 				<a href="professional.html"><b>Sei un terapeuta?</b></a>
 				<a href="#"><img src="assets/images/icons/login.svg" alt="icona login"></a>
-				<a class="btn btn--small" href="#">Fai il Quiz</a>
+				<a class="btn btn--small" href="#">Scarica l'App</a>
 				<a class="btn btn--small btn--outline" href="search-city.html">Cerca Terapeuta</a>
 			</div>
 		</header>
@@ -81,7 +81,9 @@
 					<div class="services__box-group">
 						<div class="services__box">
 							<div class="services__box-body">
-								<div class="services__image"></div>
+								<video class="services__video" poster="assets/images/armchair.webp" autoplay muted playsinline>
+								    <source src="assets/videos/armchair.mov" type="video/mp4">
+								</video>
 								<h3 class="services__goal">Comprendi e supera le tue difficoltà</h3>
 								<p class="services__body">
 									Trova terapeuti qualificati che possano aiutarti a dare voce e strumenti efficaci per superare il tuo malessere o un periodo difficile
@@ -95,7 +97,9 @@
 						</div>
 						<div class="services__box">
 							<div class="services__box-body">
-								<div class="services__image"></div>
+								<video class="services__video" poster="assets/images/superhero.webp" autoplay muted playsinline>
+								    <source src="assets/videos/superhero.mov" type="video/mp4">
+								</video>
 								<h3 class="services__goal">Sblocca il tuo potenziale e raggiungi i tuoi obiettivi</h3>
 								<p class="services__body">
 									Scopri come sviluppare le tue capacità e realizzarti sia personalmente che professionalmente.
@@ -109,7 +113,9 @@
 						</div>
 						<div class="services__box">
 							<div class="services__box-body">
-								<div class="services__image"></div>
+								<video class="services__video" poster="assets/images/little-plant.webp" autoplay muted playsinline>
+								    <source src="assets/videos/little-plant.mov" type="video/mp4">
+								</video>
 								<h3 class="services__goal">Migliora il tuo benessere e ritrova l’equilibrio</h3>
 								<p class="services__body">
 									Trova supporto per migliorare il tuo benessere complessivo. I nostri professionisti ti aiuteranno a gestire lo stress, trovare equilibrio e serenità nella vita quotidiana.
@@ -514,8 +520,8 @@
 									Puoi cercare il professionista più vicino a te per un incontro in presenza, oppure cercare il professionista in base alle sue specializzazioni.
 								</p>
 								<div class="how-work__search-buttons">
-									<div class="btn  btn--small">Cerca per città</div>
-									<div class="btn btn--outline btn--small">Cerca per specializzazione</div>
+									<a href="#"><div class="btn  btn--small">Cerca per città</div></a>
+									<a href="#"><div class="btn btn--outline btn--small">Cerca per specializzazione</div></a>
 								</div>
 							</div>
 						</div>
@@ -562,11 +568,11 @@
 
 			<div class="emergency">
 				<div class="container">
-					<h2 class="medium-title medium-title--left medium-title--black">Hai un'emergenza?</h2>
+					<h2 class="medium-title medium-title--left medium-title--primary-900">Hai un'emergenza?</h2>
 					<p class="emergency__text">
 						Se hai bisogno di assistenza immediata o se qualcuno è in pericolo, qua potrai trovare tutti i numeri da contattare per ricevere un aiuto tempestivo.
 					</p>
-					<a class="btn btn--outline btn--black" href="#">Intervento rapido</a>
+					<a class="btn btn--outline btn--primary-900" href="#">Intervento rapido</a>
 				</div>
 			</div>
 
@@ -636,8 +642,12 @@
 				<div class="footer__medium">
 					<div class="footer__app">
 						<h3 class="footer__title">Scarica l'app</h3>
-						<img class="app-download__image app-download__image--small" src="./assets/images/app-store.webp" alt="logo App Store">
-						<img class="app-download__image app-download__image--small" src="./assets/images/google-play.webp" alt="logo Google-Play">
+						<a href="#">
+							<img class="app-download__image app-download__image--small" src="./assets/images/app-store.webp" alt="logo App Store">
+						</a>
+						<a href="#">
+							<img class="app-download__image app-download__image--small" src="./assets/images/google-play.webp" alt="logo Google-Play">
+						</a>
 					</div>
 
 					<div class="footer__help-and-socials">
@@ -647,10 +657,18 @@
 						</div>
 						<div class="footer__socials">
 							<h3 class="footer__title">Seguici su:</h3>
-							<img class="footer__socials-image" src="./assets/images/icons/social-1.svg" alt="icona Instagram">
-							<img class="footer__socials-image" src="./assets/images/icons/social-2.svg" alt="icona Facebook">
-							<img class="footer__socials-image" src="./assets/images/icons/social-3.svg" alt="icona Linkedin">
-							<img class="footer__socials-image" src="./assets/images/icons/social-4.svg" alt="icona Youtube">
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-1.svg" alt="icona Instagram">
+							</a>
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-2.svg" alt="icona Facebook">
+							</a>
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-3.svg" alt="icona Linkedin">
+							</a>
+							<a href="#">
+								<img class="footer__socials-image" src="./assets/images/icons/social-4.svg" alt="icona Youtube">
+							</a>
 						</div>
 					</div>
 				</div>

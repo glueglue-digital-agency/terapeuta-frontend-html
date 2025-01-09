@@ -2183,9 +2183,8 @@ footer {
 
 	.btn {
 		padding: 16px 25px;
-		width: 100%;
+		min-width: 300px;
 		text-align: center;
-		display: inline-block;
 	}
 
 	.btn--wide {
@@ -2198,10 +2197,6 @@ footer {
 
 	.btn--card {
 		padding: 16px 0px;
-	}
-
-	.btn--mobile {
-		width: 90%;
 	}
 
 	.btn--small {

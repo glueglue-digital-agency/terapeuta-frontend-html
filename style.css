@@ -592,7 +592,7 @@ header {
 }
 
 .how-work__text {
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .how-work__info {
@@ -615,10 +615,6 @@ header {
 
 .how-work__image {
 	width: 100%;
-}
-
-.how-work__search-title {
-
 }
 
 .how-work__search-text {
@@ -1307,7 +1303,7 @@ footer {
 }
 
 .get-in-touch {
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -1317,12 +1313,11 @@ footer {
 	height: 160px;
 	text-align: right;
 	display: flex;
-	justify-content: flex-end;
 	align-items: center;
 }
 
 .btn--get-in-touch {
-	margin: 40px 40px 0 0;
+	margin: 40px 0 0 40px;
 }
 
 .specialisation__title {
@@ -1468,7 +1463,6 @@ footer {
 } 
 
 .reviews {
-	padding-bottom: 50px;
 	padding-top: 20px;
 }
 
@@ -1783,7 +1777,6 @@ footer {
 	}
 
 	.hero {
-		padding-bottom: 590px;
 		background-color: var(--color-primary-200);
 	}
 
@@ -1792,6 +1785,7 @@ footer {
 		line-height: 1.8rem;
 		padding: 20px 0px;
 		padding-bottom: 30px;
+		margin-bottom: 550px;
 	}
 
 	.hero__content {
@@ -1802,7 +1796,7 @@ footer {
 	.hero__video {
 		object-position: right;
 		height: 600px;
-		bottom: 0;
+		top: 17%;
 	}
 
 	.hero__footer {
@@ -2189,8 +2183,9 @@ footer {
 
 	.btn {
 		padding: 16px 25px;
-		min-width: 300px;
+		width: 100%;
 		text-align: center;
+		display: inline-block;
 	}
 
 	.btn--wide {
@@ -2504,6 +2499,14 @@ footer {
 
 	/*PROFESSIONAL*/
 
+	.hero__video--professional {
+		top: 26%;
+	}
+
+	.hero--professional {
+		padding-bottom: unset;
+	}
+
 	.professional__body {
 		flex-direction: column;
 		padding: 30px 0;
@@ -2561,6 +2564,10 @@ footer {
 		left: -5%;
 	}
 
+	.testimony__footer {
+		padding-top: 20px;
+	}
+
 	.plans {
 		padding: 50px 0;
 	}
@@ -2570,7 +2577,7 @@ footer {
 	}
 
 	.plans__footer {
-		padding: 20px 0;
+		padding: 40px 0;
 	}
 
 	.plans__child {

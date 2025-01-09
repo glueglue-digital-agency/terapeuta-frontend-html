@@ -222,6 +222,7 @@ header {
 	height: 850px;
 	object-fit: cover;
 	object-position: center;
+	
 }
 
 .hero__video--professional {
@@ -259,7 +260,7 @@ header {
 	background-color: var(--color-accent);
 	color: white;
 	padding: 140px 0px;
-	padding-top: 200px;
+	padding-top: 170px;
 }
 
 .services__text {
@@ -281,10 +282,9 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	aspect-ratio: 1;
-	height: fit-content;
 	gap: 20px;
 	padding: 40px;
+	padding-top: 20px;
 	background-color: var(--color-quaternary);
 	border-radius: 33px;
 }
@@ -294,7 +294,7 @@ header {
 }
 
 .services__video {
-	height: 100px;
+	height: 140px;
 	-webkit-mask-image: -webkit-radial-gradient(white, black);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -302,6 +302,10 @@ header {
 
 .services__box-body {
 	text-align: center;
+}
+
+.services__dropdown {
+	margin-top: auto;
 }
 
 .services__goal {
@@ -493,7 +497,7 @@ header {
 
 .experts {
 	background-color: var(--color-primary-200);
-	padding: 80px 0px;
+	padding: 100px 0px;
 	text-align: center;
 }
 
@@ -633,6 +637,7 @@ header {
 
 .emergency {
 	padding: 100px 0px;
+	padding-bottom: 120px;
 	background-color: var(--color-tertiary);
 	color: var(--color-primary-900);
 }
@@ -695,7 +700,7 @@ header {
 footer {
 	background-color: var(--color-primary);
 	color: white;
-	padding: 60px 0;
+	padding: 80px 0;
 	padding-bottom: 44px;
 }
 
@@ -789,7 +794,7 @@ footer {
 
 .therapist {
 	background-color: var(--color-primary-200);
-	padding: 40px;
+	padding: 80px 0px;
 }
 
 .therapist__top {
@@ -930,7 +935,8 @@ footer {
 .dont-find {
 	text-align: center;
 	background-color: var(--color-secondary);
-	padding: 100px 0;
+	padding: 80px 0;
+	padding-bottom: 100px;
 }
 
 .dont-find__text {
@@ -1155,7 +1161,7 @@ footer {
 }
 
 .details {
-	padding: 50px 0px;
+	padding: 80px 0px;
 }
 
 .details__card {
@@ -1783,6 +1789,7 @@ footer {
 
 	.hero {
 		background-color: var(--color-primary-200);
+		padding-top: 6px;
 	}
 
 	.hero__subtitle {
@@ -1835,6 +1842,7 @@ footer {
 
 	.services__box {
 		padding: 30px;
+		padding-top: 10px;
 		margin: 0px 10px;
 		aspect-ratio: unset;
 	}
@@ -1862,7 +1870,7 @@ footer {
 	}
 
 	.how-feel__feeling {
-		width: 70%;
+		width: 60%;
 		justify-content: center;
 		padding: unset;
 	}
@@ -1890,6 +1898,7 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding: 20px 15px;
 	}
 
 	.prices {
@@ -1933,7 +1942,7 @@ footer {
 
 	.prices__in-person {
 		flex-direction: column;
-		margin-top: 60px;
+		margin-top: 40px;
 		padding: 0px 10px;
 		gap: 30px;
 	}
@@ -2028,7 +2037,7 @@ footer {
 	}
 
 	.our-values__image-box {
-		height: 70px;
+		height: 60px;
 	}
 
 	.our-values__image {
@@ -2080,6 +2089,7 @@ footer {
 
 	.emergency {
 		padding: 40px 0;
+		padding-bottom: 50px;
 	}
 
 	.emergency__text {
@@ -2108,7 +2118,7 @@ footer {
 	}
 
 	footer {
-		padding: 40px 0px;
+		padding: 40px 20px;
 		padding-bottom: 20px;
 	}
 
@@ -2231,6 +2241,7 @@ footer {
 	/*DETAILS-MOBILE*/
 
 	.details {
+		padding: 30px 0px;
 		margin-bottom: 0px;
 	}
 
@@ -2385,6 +2396,8 @@ footer {
 
 	.office__grid {
 		grid-template-columns: 1fr;
+		padding: 0px 20px;
+		padding-bottom: 20px;
 	}
 
 	.office__image:last-child {
@@ -2410,6 +2423,7 @@ footer {
 
 	.therapist {
 		padding: 40px 5px;
+		padding-bottom: 30px;
 	}
 
 	.therapist--details {
@@ -2470,6 +2484,7 @@ footer {
 
 	.dont-find {
 		padding: 40px 0px;
+		padding-bottom: 50px;
 	}
 
 	.dont-find__text {
@@ -2505,8 +2520,8 @@ footer {
 
 	.sci-logos {
 		flex-direction: column;
+		gap: 40px;
 	}
-
 
 	.professional__body {
 		flex-direction: column;
@@ -2529,7 +2544,7 @@ footer {
 	}
 
 	.already-chosen {
-		padding: 40px 0;
+		padding: 40px 0px;
 	}
 
 	.already-chosen__body {
@@ -2547,7 +2562,8 @@ footer {
 	}
 
 	.testimony {
-		padding: 50px 0;
+		padding: 40px 0;
+		padding-bottom: 50px;
 	}
 
 	.testimony__content {

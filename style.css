@@ -698,10 +698,6 @@ footer {
 	padding: 60px 0;
 }
 
-.footer--details {
-	padding-bottom: 120px;
-}
-
 .footer__top {
 	display: flex;
 	align-items: flex-start;
@@ -1705,7 +1701,7 @@ footer {
 	}
 
 	h1 {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 		line-height: 2.4rem;
 	}
 
@@ -1790,6 +1786,7 @@ footer {
 
 	.hero__content {
 		padding: 30px;
+		padding-top: 40px;
 		width: unset;
 	}
 
@@ -2062,7 +2059,6 @@ footer {
 
 	.how-work__search-buttons {
 		flex-direction: column;
-		align-items: center;
 	}
 
 	.how-work__search {
@@ -2182,17 +2178,14 @@ footer {
 	}
 
 	.btn {
-		padding: 16px 25px;
-		min-width: 300px;
+		padding: 16px 0px;
+		width: 100%;
+		display: block;
 		text-align: center;
 	}
 
 	.btn--wide {
-		padding: 16px 25px;
-	}
-
-	.btn--plans {
-		padding: 16px 20px;
+		padding: 16px 0px;
 	}
 
 	.btn--card {
@@ -2200,7 +2193,7 @@ footer {
 	}
 
 	.btn--small {
-		padding: 12px;
+		padding: 12px 0px;
 	}
 
 	.btn--footer {
@@ -2390,7 +2383,7 @@ footer {
 	}
 
 	.reviews {
-		padding-bottom: 30px;
+		padding-bottom: unset;
 	}
 
 	.reviews__child {
@@ -2468,7 +2461,6 @@ footer {
 
 	.dont-find {
 		padding: 40px 0px;
-		padding-bottom: 60px;
 	}
 
 	.dont-find__text {
@@ -2495,7 +2487,7 @@ footer {
 	/*PROFESSIONAL*/
 
 	.hero__video--professional {
-		top: 26%;
+		top: 25%;
 	}
 
 	.hero--professional {
@@ -2561,6 +2553,8 @@ footer {
 
 	.testimony__footer {
 		padding-top: 20px;
+		margin: unset;
+		width: unset;
 	}
 
 	.plans {
@@ -2586,17 +2580,3 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

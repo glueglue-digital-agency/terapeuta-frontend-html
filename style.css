@@ -222,6 +222,7 @@ header {
 	height: 850px;
 	object-fit: cover;
 	object-position: center;
+	
 }
 
 .hero__video--professional {
@@ -259,7 +260,7 @@ header {
 	background-color: var(--color-accent);
 	color: white;
 	padding: 140px 0px;
-	padding-top: 200px;
+	padding-top: 170px;
 }
 
 .services__text {
@@ -281,10 +282,9 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	aspect-ratio: 1;
-	height: fit-content;
 	gap: 20px;
 	padding: 40px;
+	padding-top: 20px;
 	background-color: var(--color-quaternary);
 	border-radius: 33px;
 }
@@ -294,7 +294,7 @@ header {
 }
 
 .services__video {
-	height: 100px;
+	height: 140px;
 	-webkit-mask-image: -webkit-radial-gradient(white, black);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -302,6 +302,10 @@ header {
 
 .services__box-body {
 	text-align: center;
+}
+
+.services__dropdown {
+	margin-top: auto;
 }
 
 .services__goal {
@@ -493,7 +497,7 @@ header {
 
 .experts {
 	background-color: var(--color-primary-200);
-	padding: 80px 0px;
+	padding: 100px 0px;
 	text-align: center;
 }
 
@@ -592,7 +596,7 @@ header {
 }
 
 .how-work__text {
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .how-work__info {
@@ -617,10 +621,6 @@ header {
 	width: 100%;
 }
 
-.how-work__search-title {
-
-}
-
 .how-work__search-text {
 	margin: 20px 0px;
 	font-size: 0.86rem;
@@ -637,6 +637,7 @@ header {
 
 .emergency {
 	padding: 100px 0px;
+	padding-bottom: 120px;
 	background-color: var(--color-tertiary);
 	color: var(--color-primary-900);
 }
@@ -682,6 +683,10 @@ header {
 	width: 100%;
 }
 
+.newsletter__field::placeholder {
+	color: var(--color-primary-400);
+}
+
 .newsletter__field:focus {
 	border: 1px solid var(--color-primary-300);
 	outline: 3px solid var(--color-primary-300);
@@ -699,11 +704,8 @@ header {
 footer {
 	background-color: var(--color-primary);
 	color: white;
-	padding: 60px 0;
-}
-
-.footer--details {
-	padding-bottom: 120px;
+	padding: 80px 0;
+	padding-bottom: 44px;
 }
 
 .footer__top {
@@ -796,7 +798,7 @@ footer {
 
 .therapist {
 	background-color: var(--color-primary-200);
-	padding: 40px;
+	padding: 80px 0px;
 }
 
 .therapist__top {
@@ -937,7 +939,8 @@ footer {
 .dont-find {
 	text-align: center;
 	background-color: var(--color-secondary);
-	padding: 100px 0;
+	padding: 80px 0;
+	padding-bottom: 100px;
 }
 
 .dont-find__text {
@@ -945,7 +948,15 @@ footer {
 }
 
 .hero--professional {
-	padding-bottom: 220px;
+	padding-bottom: 200px;
+}
+
+.sci-logos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+	padding: 40px 0px;
 }
 
 .professional--color-200 {
@@ -1154,7 +1165,7 @@ footer {
 }
 
 .details {
-	padding: 50px 0px;
+	padding: 80px 0px;
 }
 
 .details__card {
@@ -1259,7 +1270,7 @@ footer {
 	padding: 30px 30px 0 30px;
 }
 
-.details__top {
+.switch__top {
 	display: flex;
 	justify-content: center;
 	background-color: white;
@@ -1271,16 +1282,22 @@ footer {
 	margin-bottom: 25px;
 }
 
-.details__top-left {
+.switch__top-left {
 	background-color: var(--color-secondary);
 	padding: 14px;
 	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
-.details__top-right {
+.switch__top-right {
 	background-color: rgba(189, 255, 203, 0.3);
 	padding: 14px;
 	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .details__child {
@@ -1307,7 +1324,7 @@ footer {
 }
 
 .get-in-touch {
-	position: fixed;
+	position: sticky;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -1317,12 +1334,11 @@ footer {
 	height: 160px;
 	text-align: right;
 	display: flex;
-	justify-content: flex-end;
 	align-items: center;
 }
 
 .btn--get-in-touch {
-	margin: 40px 40px 0 0;
+	margin: 40px 0 0 40px;
 }
 
 .specialisation__title {
@@ -1468,7 +1484,6 @@ footer {
 } 
 
 .reviews {
-	padding-bottom: 50px;
 	padding-top: 20px;
 }
 
@@ -1504,6 +1519,12 @@ footer {
 
 .reviews__body {
 	margin-top: 30px;
+}
+
+/*SEARCH*/
+
+.switch__top--search {
+	margin-bottom: unset;
 }
 
 .btn {
@@ -1711,7 +1732,7 @@ footer {
 	}
 
 	h1 {
-		font-size: 1.8rem;
+		font-size: 1.7rem;
 		line-height: 2.4rem;
 	}
 
@@ -1783,8 +1804,8 @@ footer {
 	}
 
 	.hero {
-		padding-bottom: 590px;
 		background-color: var(--color-primary-200);
+		padding-top: 6px;
 	}
 
 	.hero__subtitle {
@@ -1792,17 +1813,19 @@ footer {
 		line-height: 1.8rem;
 		padding: 20px 0px;
 		padding-bottom: 30px;
+		margin-bottom: 550px;
 	}
 
 	.hero__content {
 		padding: 30px;
+		padding-top: 40px;
 		width: unset;
 	}
 
 	.hero__video {
 		object-position: right;
 		height: 600px;
-		bottom: 0;
+		top: 16%;
 	}
 
 	.hero__footer {
@@ -1835,6 +1858,7 @@ footer {
 
 	.services__box {
 		padding: 30px;
+		padding-top: 10px;
 		margin: 0px 10px;
 		aspect-ratio: unset;
 	}
@@ -1862,7 +1886,7 @@ footer {
 	}
 
 	.how-feel__feeling {
-		width: 70%;
+		width: 60%;
 		justify-content: center;
 		padding: unset;
 	}
@@ -1890,6 +1914,7 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		padding: 20px 15px;
 	}
 
 	.prices {
@@ -1933,7 +1958,7 @@ footer {
 
 	.prices__in-person {
 		flex-direction: column;
-		margin-top: 60px;
+		margin-top: 40px;
 		padding: 0px 10px;
 		gap: 30px;
 	}
@@ -2028,7 +2053,7 @@ footer {
 	}
 
 	.our-values__image-box {
-		height: 70px;
+		height: 60px;
 	}
 
 	.our-values__image {
@@ -2068,7 +2093,6 @@ footer {
 
 	.how-work__search-buttons {
 		flex-direction: column;
-		align-items: center;
 	}
 
 	.how-work__search {
@@ -2081,6 +2105,7 @@ footer {
 
 	.emergency {
 		padding: 40px 0;
+		padding-bottom: 50px;
 	}
 
 	.emergency__text {
@@ -2109,7 +2134,7 @@ footer {
 	}
 
 	footer {
-		padding: 40px 0px;
+		padding: 40px 20px;
 		padding-bottom: 20px;
 	}
 
@@ -2188,29 +2213,22 @@ footer {
 	}
 
 	.btn {
-		padding: 16px 25px;
-		min-width: 300px;
+		padding: 16px 0px;
+		width: 100%;
+		display: block;
 		text-align: center;
 	}
 
 	.btn--wide {
-		padding: 16px 25px;
-	}
-
-	.btn--plans {
-		padding: 16px 20px;
+		padding: 16px 0px;
 	}
 
 	.btn--card {
 		padding: 16px 0px;
 	}
 
-	.btn--mobile {
-		width: 90%;
-	}
-
 	.btn--small {
-		padding: 12px;
+		padding: 12px 0px;
 	}
 
 	.btn--footer {
@@ -2223,7 +2241,7 @@ footer {
 	}
 
 	.medium-title {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 		line-height: 2.2rem;
 	}
 
@@ -2239,6 +2257,7 @@ footer {
 	/*DETAILS-MOBILE*/
 
 	.details {
+		padding: 30px 0px;
 		margin-bottom: 0px;
 	}
 
@@ -2285,19 +2304,19 @@ footer {
 		padding: 0px 15px;
 	}
 
-	.details__top {
+	.switch__top {
 		padding: 12px;
 		margin: 4px 10px;
 		margin-bottom: 20px;
 		gap: 10px;
 	}
 
-	.details__top-left {
+	.switch__top-left {
 		padding: 10px;
 		text-align: center;
 	}
 
-	.details__top-right {
+	.switch__top-right {
 		padding: 10px;
 		text-align: center;
 	}
@@ -2393,6 +2412,8 @@ footer {
 
 	.office__grid {
 		grid-template-columns: 1fr;
+		padding: 0px 20px;
+		padding-bottom: 20px;
 	}
 
 	.office__image:last-child {
@@ -2400,7 +2421,7 @@ footer {
 	}
 
 	.reviews {
-		padding-bottom: 30px;
+		padding-bottom: unset;
 	}
 
 	.reviews__child {
@@ -2418,6 +2439,7 @@ footer {
 
 	.therapist {
 		padding: 40px 5px;
+		padding-bottom: 30px;
 	}
 
 	.therapist--details {
@@ -2478,7 +2500,7 @@ footer {
 
 	.dont-find {
 		padding: 40px 0px;
-		padding-bottom: 60px;
+		padding-bottom: 50px;
 	}
 
 	.dont-find__text {
@@ -2504,6 +2526,19 @@ footer {
 
 	/*PROFESSIONAL*/
 
+	.hero__video--professional {
+		top: 25%;
+	}
+
+	.hero--professional {
+		padding-bottom: unset;
+	}
+
+	.sci-logos {
+		flex-direction: column;
+		gap: 40px;
+	}
+
 	.professional__body {
 		flex-direction: column;
 		padding: 30px 0;
@@ -2525,7 +2560,7 @@ footer {
 	}
 
 	.already-chosen {
-		padding: 40px 0;
+		padding: 40px 0px;
 	}
 
 	.already-chosen__body {
@@ -2543,7 +2578,8 @@ footer {
 	}
 
 	.testimony {
-		padding: 50px 0;
+		padding: 40px 0;
+		padding-bottom: 50px;
 	}
 
 	.testimony__content {
@@ -2561,6 +2597,12 @@ footer {
 		left: -5%;
 	}
 
+	.testimony__footer {
+		padding-top: 20px;
+		margin: unset;
+		width: unset;
+	}
+
 	.plans {
 		padding: 50px 0;
 	}
@@ -2570,7 +2612,7 @@ footer {
 	}
 
 	.plans__footer {
-		padding: 20px 0;
+		padding: 40px 0;
 	}
 
 	.plans__child {
@@ -2584,17 +2626,3 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

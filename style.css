@@ -696,6 +696,7 @@ footer {
 	background-color: var(--color-primary);
 	color: white;
 	padding: 60px 0;
+	padding-bottom: 44px;
 }
 
 .footer__top {
@@ -937,7 +938,15 @@ footer {
 }
 
 .hero--professional {
-	padding-bottom: 220px;
+	padding-bottom: 200px;
+}
+
+.sci-logos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 100px;
+	padding: 40px 0px;
 }
 
 .professional--color-200 {
@@ -1793,7 +1802,7 @@ footer {
 	.hero__video {
 		object-position: right;
 		height: 600px;
-		top: 17%;
+		top: 16%;
 	}
 
 	.hero__footer {
@@ -2206,7 +2215,7 @@ footer {
 	}
 
 	.medium-title {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 		line-height: 2.2rem;
 	}
 
@@ -2493,6 +2502,11 @@ footer {
 	.hero--professional {
 		padding-bottom: unset;
 	}
+
+	.sci-logos {
+		flex-direction: column;
+	}
+
 
 	.professional__body {
 		flex-direction: column;

@@ -142,8 +142,6 @@ input[type="checkbox"]:checked {
   background-image: url("assets/images/icons/check.svg");
   background-color: var(--color-primary);
  	border: 2px solid var(--color-primary);
-
-
 }
 
 select {
@@ -1815,7 +1813,7 @@ footer {
 	}
 
 	.hero__title {
-		line-height: unset;
+		line-height: 2.2rem;
 	}
 
 	.hero__subtitle {

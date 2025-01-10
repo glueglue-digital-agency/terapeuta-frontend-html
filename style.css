@@ -1540,7 +1540,7 @@ footer {
 	border-radius: 8px;
 	background-color: white;
 	color: var(--color-primary-dark);
-	padding: 15px 20px;
+	padding: 15px 0px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -1556,6 +1556,7 @@ footer {
 
 .search__field::placeholder {
 	color: var(--color-primary-400);
+	padding-left: 15px;
 }
 
 .therapist__button {
@@ -2669,6 +2670,33 @@ button {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 5px;
+	}
+
+	.therapist__top-left {
+		margin-left: 6px;
+	}
+
+	.switch__top {
+		margin: unset;
+	}
+
+	.switch__top-left {
+		padding: 14px 18px;
+	}
+
+	.switch__top-right {
+		padding: 14px 18px;
+	}
+
+	.therapist__search-bar {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.search__field {
+		display: block;
+		width: 100%;
+		overflow: hidden;
 	}
 
 }

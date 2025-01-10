@@ -150,10 +150,7 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background-image: url("assets/images/icons/chevron_down.svg");
-	-o-background-size: auto;
-	-moz-background-size: auto;
-	-webkit-background-size: auto;
+	background-image: url("assets/images/icons/arrow-down.svg");
 	background-repeat: no-repeat;
 	background-position: 95% center;
 	background-color: white;

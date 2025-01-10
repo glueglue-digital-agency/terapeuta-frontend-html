@@ -213,6 +213,11 @@ header {
 .hero {
 	color: var(--color-primary-dark);
 	position: relative;
+	max-height: 850px;
+}
+
+.hero__title {
+	line-height: 4.4rem;
 }
 
 .hero__video {
@@ -222,7 +227,6 @@ header {
 	height: 850px;
 	object-fit: cover;
 	object-position: center;
-	
 }
 
 .hero__video--professional {
@@ -240,7 +244,7 @@ header {
 	position: relative;
 	z-index: 1000;
 	padding: 100px;
-	width: 45%;
+	width: 48%;
 }
 
 .hero__feature {
@@ -1806,6 +1810,12 @@ footer {
 	.hero {
 		background-color: var(--color-primary-200);
 		padding-top: 6px;
+		padding-bottom: 30px;
+		max-height: unset;
+	}
+
+	.hero__title {
+		line-height: unset;
 	}
 
 	.hero__subtitle {
@@ -1813,7 +1823,7 @@ footer {
 		line-height: 1.8rem;
 		padding: 20px 0px;
 		padding-bottom: 30px;
-		margin-bottom: 550px;
+		margin-bottom: 590px;
 	}
 
 	.hero__content {
